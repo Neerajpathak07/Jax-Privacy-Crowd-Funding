@@ -1,0 +1,82 @@
+{
+    "$schema": "https://fundingjson.org/schema/v1.1.0.json",
+    "version": "v1.1.0",
+
+    "entity": {
+        "type": "individual",
+        "role": "contributor",
+        "name": "Neeraj Pathak",
+        "email": "neerajrpathak710@gmail.com",
+        "phone": "+919975748552",
+        "description": "Neeraj Pathak is a 3rd-year B.Tech student in Instrumentation & Control Engineering at Vishwakarma Institute of Technology, Pune, India (UTC+5:30). He is an active open-source contributor with over 100 merged pull requests in scientific and ML computing libraries, including stdlib. He has made significant contributions to the Google DeepMind JAX-Privacy repository, with 4 merged PRs and 3 resolved issues. His technical expertise spans Python, JAX, C++, Java, React, and ML frameworks including SciPy and Flax. He is the author of the proposed JAX-Privacy Benchmarking Suite, developed as part of Google Summer of Code 2025 under Google DeepMind.",
+        "webpageUrl": {
+            "url": "https://www.linkedin.com/in/neeraj-pathak-527a682a9/",
+            "wellKnown": ""
+        }
+    },
+
+    "projects": [{
+        "guid": "jax-privacy-benchmarks",
+        "name": "JAX-Privacy Benchmarking Suite",
+        "description": "A standalone, easily forkable benchmarking suite developed as a new top-level directory (benchmarks/) within the Google DeepMind JAX-Privacy repository, sitting alongside the existing jax_privacy/ and examples/ directories. The suite enables researchers and developers to evaluate differentially private machine learning mechanisms across standardised models and datasets using JAX-native components. It includes three model implementations (CNN, Transformer, and LoRA adapter for Gemma), eight benchmark datasets organised by differential privacy unit (example-level: CIFAR-10, IMDB; user-level: StackOverflow, FLAIR, CelebA; multi-owner: Enron, ArXiv), privacy accounting and metrics utilities, a unified training script with CLI support, and a comprehensive test suite. All implementations adhere to JAX-Privacy code conventions, utilising core components such as clipped_grad, execution_plan, and batch_selection strategies. The project also includes beginner-friendly documentation published via ReadTheDocs. Developed as a project under Google DeepMind.",
+        "webpageUrl": {
+            "url": "https://github.com/google-deepmind/jax_privacy",
+            "wellKnown": ""
+        },
+        "repositoryUrl": {
+            "url": "https://github.com/google-deepmind/jax_privacy",
+            "wellKnown": ""
+        },
+        "licenses": ["spdx:Apache-2.0"],
+        "tags": [
+            "differential-privacy",
+            "benchmarking",
+            "jax",
+            "machine-learning",
+            "deep-learning",
+            "dp-sgd",
+            "google-deepmind",
+            "python",
+            "privacy",
+            "research"
+        ]
+    }],
+
+    "funding": {
+        "channels": [{
+            "guid": "paypal",
+            "type": "payment-provider",
+            "address": "neerajrpathak710@gmail.com",
+            "description": "Direct PayPal transfer to the contributor's registered email address."
+        }],
+
+        "plans": [{
+            "guid": "stipend-2026",
+            "status": "active",
+            "name": "Contributor Stipend (June – August)",
+            "description": "Full funding for Neeraj Pathak's 3-month engagement (June, July, August) to develop the JAX-Privacy Benchmarking Suite under Google DeepMind. The total stipend requested is $4,500 USD, covering 350 hours of work across the large-project term. This includes development of the benchmarks/ directory, 3 model implementations, 8 dataset pipelines, privacy utilities, a CLI training script, a full test suite, and accompanying ReadTheDocs documentation.",
+            "amount": 4500,
+            "currency": "USD",
+            "frequency": "one-time",
+            "channels": ["paypal"]
+        },
+        {
+            "guid": "monthly-stipend-2026",
+            "status": "active",
+            "name": "Monthly Stipend Instalment (June – August)",
+            "description": "An equivalent monthly instalment plan for the same $4,500 stipend, paid at $1,500 per month across June, July, and August 2026. Preferred if the funding body disburses on a monthly basis.",
+            "amount": 1500,
+            "currency": "USD",
+            "frequency": "monthly",
+            "channels": ["paypal"]
+        }],
+
+        "history": [{
+            "year": 2026,
+            "income": 0,
+            "expenses": 0,
+            "currency": "USD",
+            "description": "Project initiated in 2026  Google DeepMind. No independent funding history prior to this application."
+        }]
+    }
+}
